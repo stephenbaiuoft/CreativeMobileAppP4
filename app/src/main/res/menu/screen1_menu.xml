@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title = "Upload Screen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="show-gallery"
+        android:id="@+id/show_gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="realmdelete"
+        android:id="@+id/realmdelete"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+    <item android:title="multi-threads"
+    android:id="@+id/multi_threads"
+    android:icon="@mipmap/ic_launcher"
+    app:showAsAction="ifRoom" />
+
+
+</menu>
